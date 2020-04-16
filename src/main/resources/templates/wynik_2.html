@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <title>Pierwszy projekt springowy</title>
+        <meta charset="UTF-8" />
+    </head>
+    <body>
+        <p>
+            <span th:text="${calc.lvalue}">2</span> <span th:text="${calc.operation}">+</span> <span th:text="${calc.rvalue}">2</span> = <span th:text="${calc.result}">4</span>
+        </p>
+    </body>
+</html>
